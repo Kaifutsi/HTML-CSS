@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+}
+
+
+.lomake-border{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(191, 230, 245);
+    border:0px;
+    border-color: black;
+    margin: 4px;
+}
+
+input[type="text"], input[type="email"] {
+    border-width: 1px;
+    border-color: rgb(26, 26, 137);
+    outline: none;
+    margin: 0px;
+    width: 93%;
+    padding: 10px 14px;
+
+}
+
+label{
+    padding-top: 15px;
+    display: block;
+    margin: 15px;
+
+}
+
+
+font-family
+font-size
+margin-bottom
+display, padding
+width

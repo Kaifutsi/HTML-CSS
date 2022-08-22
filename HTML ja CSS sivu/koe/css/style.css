@@ -1,0 +1,345 @@
+/**************************/
+/* Sivuston perusasetukset*/   
+/**************************/
+.header{
+    margin: 0px auto;
+	width: 1400px;
+    overflow: hidden;
+}
+
+
+#top-header{
+height: 60px;
+text-align:center;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{ 
+	padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+    font-size: 12pt;
+	background: #FFFFFF;
+
+}
+
+.menu li{
+    display: inline-block;
+    padding: 20px;
+    padding-right: 20px;
+    margin-right: -4px;
+    margin-top: 15PX;
+    background-color: red;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-transform: uppercase;
+	font-size: 12pt;
+    
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    color: #f8f8f8;
+
+}
+
+
+#logo{
+float: left;
+padding: none;
+margin: none;
+height: 60px;
+width: 30%;
+
+}
+
+#logo img{
+    width: 60%;
+    float: left;
+    padding: 10px 0px;
+}
+
+.nav{
+    width: 100%;
+    margin-left: 20%;
+}
+
+.header-image-menu{
+    margin-top: 10px;
+    position: relative;
+}
+
+.header-image-menu img{
+
+    position: relative;
+    width: 100%;
+    margin-top: 55px;
+    padding:0;
+}
+
+.image-text{
+    position: absolute;
+    font-family: 'Roboto';
+    color: black;
+    margin-top: -120px;
+    padding-left: 780px;
+}
+
+#welcome{
+    overflow: hidden;
+    margin: 0px auto;
+    width: 1000px;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+#welcome.title{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#welcome p{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#section-2{
+  overflow: hidden;
+  margin-top: 5em;
+  padding-top: 1em;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+}
+
+.row{
+    display: inline-block;
+    margin-top: 0%;
+    width: 1400px;
+    height: 300px;
+}
+
+.column-title h2{
+   margin: 1em 0em;
+   font-size: 1,6em;
+   font-weight: 700;
+}
+
+#column-1{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    padding-left: 0%;
+    padding:2%;
+}
+
+#column-2{
+    display:inline-block;
+    width: 24%;
+    text-align: center;
+    padding:2%;
+}
+
+#column-3{
+    display:inline-block;
+    width: 24%;
+    text-align: center;
+    padding:2%;
+}
+
+.row2{
+    margin-top: 10%;
+    width: 1400px;
+    height: 800px;
+}
+
+#column-4{
+    display:inline-block;
+    width: 20%;
+    text-align: center;
+    padding:2.4%;
+
+    
+}
+
+#column-4 img{
+    width:275px;
+    height: 180px;
+
+}
+
+#column-5{
+    display:inline-block;
+    width: 18%;
+    text-align: center;
+    padding:2.4%;
+
+}
+
+#column-5 img{
+    width:275px;
+    height: 180px;
+
+}
+
+#column-6{
+    display:inline-block;
+    width: 23.5%;
+    text-align: center;
+    padding:2.4%;
+
+}
+
+#column-6 img{
+    width:275px;
+    height: 180px;
+
+}
+
+#column-6 p{
+    width: 260px;
+    margin-left: 10%;
+}
+
+
+#column-7{
+    display:inline-block;
+    width: 18%;
+    text-align: center;
+    padding:2.4%;
+
+}
+
+#column-7 img{
+    width:275px;
+    height: 180px;
+
+}
+
+.button{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    color:white;
+    background-color: red;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-color: red ;
+    border-width: 2px;
+    
+}
+
+.button:hover{
+    background-color: white;
+    cursor:pointer;
+    color: green;
+    border-color: red;
+    border-width: 2px;
+    border-style:groove;
+
+}
+
+.company-details{
+    overflow: hidden;
+    padding: 3em 0em;
+    background: #E3F0F7;
+    text-align: center;
+    margin-top: 5em;
+}
+
+#footer #col1,
+#footer #col2,
+#footer #col3{
+    display: inline-block;
+    width: 320px;
+}
+
+#footer #icon{
+    display: block;
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+.copyright{
+    overflow: hidden;
+    padding: 3em 0em;
+    border-top: 20px solid rgba(255,255,255,0.08);
+    text-align: center;
+    background: red;
+}
+
+.copyright p{
+    letter-spacing: 1px;
+    font-size: 0.90em;
+    color:black;
+}
+
+.copyright a{
+    text-decoration: none;
+    color:rgba(255,255,255,0.8);
+}
+
+ul.contact{
+    margin:0;
+    padding: 2em 0em 0em 0em;
+    list-style: none;
+}
+
+ul.contact li{
+    display: inline-block;
+    padding: 0em 0.10em;
+    font-size: 1em;
+}
+
+ul.contact li a{
+    color: #FFF;
+    display: inline-block;
+    background: #4C93B9;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+
+h1, h2, h3{
+	margin: 0;
+	padding: 0;
+	color: black;
+    text-align: center;
+    font-family: 'Roboto';
+    
+}
+
+p, ol, ul{
+	margin-top: 0;
+    font-family: 'Roboto';
+}
+
+p {
+	line-height: 180%;
+}
+
+ol, ul{
+	padding: 0;
+	list-style: none;
+}
+
+.container{
+	/* Asetetaan containerin leveys 1400px ja kohdistus keskelle */
+	margin: 0px auto;
+	width: 1400px;
+}
+
